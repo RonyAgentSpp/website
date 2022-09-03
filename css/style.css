@@ -1,0 +1,600 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans"
+}
+
+html,body{
+	height: 100%;
+}
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	width: 1200px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+
+header{
+	min-width: 1200px;
+	width: 100%;
+	height: 38px;
+	background-color: #000000;
+}
+
+.header img{
+	margin: 15px;
+}
+
+
+
+.container-banner > .center{
+	height: 100%;
+	/*text-align: right;*/
+}
+
+.form{
+	padding:10px;
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top:-15px;
+	border-width: 12px;
+	border-color: rgba(120,120,120,0.5);
+	border-style: solid;
+	background-clip:padding-box;
+	/*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+
+.form h2{
+	font-weight: normal;
+	color: #999999;
+	font-size: 21px;
+}
+
+.input-container{
+	margin-top:20px;
+}
+
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+}
+
+.form p{
+	display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+	margin:20px 0;
+}
+
+.input-container input[type=text]{
+	margin-top:20px;
+	width: 344px;
+	height: 55px;
+	border:1px solid #ccc;
+}
+
+.form .input-submit-container{
+	text-align: center;
+}
+
+.form input[type=submit]{
+	color: white;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	display: inline-block;
+	background-color: #363A6D;
+	border-top:0;
+	border-right: 0;
+	border-left: 0;
+	cursor: pointer;
+	border-bottom: 5px solid #4A5097;
+}
+
+.form input[type=submit]:hover{
+	background-color: #323665;
+}
+
+.container-list{
+	padding:30px;
+	margin-top:100px;
+	float: left;
+	width: 519px;
+	height: 270px;
+	background-color: rgba(33,35,67,0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+.container-list ul li{
+	margin-top:18px;
+	color: white;
+}
+
+
+.container-2{
+	min-width: 1200px;
+	padding:40px 0;
+	background-color: rgb(215, 204, 204);
+	text-align: center;
+}
+
+.container-2 h2{
+	font-weight: normal;
+}
+
+.container-2 p{
+	width: 698px;
+	margin:15px 0;
+	display: inline-block;
+	text-align: justify;
+	background-color: #212343;
+}
+
+.container-banner{
+	width: 100%;
+	min-width: 1200px;
+	height: 557px;
+	background-image:url('../background.png');
+	background-size: cover;
+	background-position: center;
+	margin-top: 0px;
+	padding: 20px;
+}
+
+.arrow{
+	position: relative;
+	top:60px;
+	left:50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url('../img/arrow.png');
+	background-size: 100% 100%;
+}
+
+.section-1{
+	min-width: 1200px;
+	padding:90px 0;
+}
+
+.section-1 h2{
+	text-align: center;
+	color: #462663;
+	font-weight: normal;
+
+}
+
+.container-section{
+	margin-top:40px;
+}
+
+.container-section{
+	text-align: center;
+}
+
+.container-single{
+	float: left;
+	width: 33.3333%;
+	padding:30px;
+}
+
+
+.container-single p{
+	display: inline-block;
+	text-align: justify;
+	padding:10px 25px;
+}
+
+.container-single img{
+	width:70px;
+}
+
+/* 
+header and footer
+*/
+
+
+  
+  .container {
+    padding: 0px 50px;
+  }
+
+  *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans"
+}
+
+html,body{
+	height: 100%;
+}
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+.clear{
+	clear: both;
+}
+
+
+h1 {
+	font-size: 3rem;
+	color: rgb(0, 0, 0);
+  
+  }
+
+.center{
+	width: 1200px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+
+.header{
+	min-width: 1200px;
+	width: 0px;
+	height: 0px;
+	background-color: #212343;
+}
+
+
+
+
+.container-banner > .center{
+	height: 100%;
+	/*text-align: right;*/
+}
+
+.form{
+	padding:10px;
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top:-15px;
+	border-width: 12px;
+	border-color: rgba(120,120,120,0.5);
+	border-style: solid;
+	background-color: white;
+	background-clip:padding-box;
+	/*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+
+.form h2{
+	font-weight: normal;
+	color: #999999;
+	font-size: 21px;
+}
+
+.input-container{
+	margin-top:20px;
+}
+
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+}
+
+.form p{
+	display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+	margin:20px 0;
+}
+
+.input-container input[type=text]{
+	margin-top:3px;
+	width: 344px;
+	height: 55px;
+	border:1px solid #ccc;
+}
+
+.form .input-submit-container{
+	text-align: center;
+}
+
+.form input[type=submit]{
+	color: white;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	display: inline-block;
+	background-color: #363A6D;
+	border-top:0;
+	border-right: 0;
+	border-left: 0;
+	cursor: pointer;
+	border-bottom: 5px solid #a2a2a2;
+}
+
+.form input[type=submit]:hover{
+	background-color: hsl(279, 32%, 24%);
+}
+
+.container-list{
+	padding:30px;
+	margin-top:100px;
+	float: left;
+	width: 519px;
+	height: 270px;
+	background-color: rgba(33, 33, 43, 0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+.container-list ul li{
+	margin-top:18px;
+	color: white;
+}
+
+
+.container-2{
+	min-width: 1200px;
+	padding:40px 0;
+	background-color: rgb(173, 171, 171);
+	text-align: center;
+}
+
+.container-2 h2{
+	font-weight: normal;
+}
+
+.container-2 p{
+	width: 698px;
+	margin:15px 0;
+	display: inline-block;
+	text-align: justify;
+}
+
+.arrow{
+	position: relative;
+	top:60px;
+	left:50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+
+	background-size: 100% 100%;
+}
+
+.section-1{
+	min-width: 1200px;
+	padding:90px 0;
+}
+
+.section-1 h2{
+	text-align: center;
+	color: #56196a;
+	font-weight: normal;
+}
+
+.container-section{
+	margin-top:40px;
+}
+
+.container-section{
+	text-align: center;
+}
+
+.container-single{
+	float: left;
+	width: 33.3333%;
+	padding:30px;
+}
+
+
+.container-single p{
+	display: inline-block;
+	text-align: justify;
+	padding:10px 25px;
+}
+
+.container-single img{
+	width:70px;
+}
+
+
+  a {
+	color: rgba(171, 84, 185, 0.875);
+	text-decoration: none;
+	transition: 0.3s;
+  }
+  
+  a:hover {
+	opacity: 0.7;
+  }
+  
+  .logo {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	
+  }
+  
+  nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	background: #000000;
+	height: 8vh;
+  }
+  
+  main {
+	background: url("../img/icon.png") no-repeat center center;
+	background-size: cover;
+	height: 92vh;
+  }
+  
+  .nav-list {
+	list-style: none;
+	display: flex;
+  }
+  
+  .nav-list li {
+	letter-spacing: 3px;
+	margin-left: 32px;
+  }
+  
+  .mobile-menu {
+	display: none;
+	cursor: pointer;
+  }
+  
+  .mobile-menu div {
+	width: 32px;
+	height: 2px;
+	background: rgb(0, 0, 0);
+	margin: 8px;
+	transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+	body {
+	  overflow-x: hidden;
+	}
+
+	.nav-list li {
+	  margin-left: 0;
+	  opacity: 0;
+	}
+	.mobile-menu {
+	  display: block;
+	}
+  }
+  
+  .nav-list.active {
+	transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+	from {
+	  opacity: 0;
+	  transform: translateX(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateX(0);
+	}
+  }
+  
+  .mobile-menu.active .line1 {
+	transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+	opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+	transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+
+ .header img {
+	width: 150px;
+	height: 150px;
+	border-radius: 60px;
+	border: 2px solid #7803f5cc;
+	
+	}
+
+	
+		.footer-content{
+			display: flex;
+			justify-items: center;
+			align-items: center;
+			text-align: center;
+			
+		}
+
+
+	  img {
+		list-style: none;
+		width: 40px;
+		height: 40px;
+		border-radius: 30px;
+		text-align: center;
+		justify-content: center;
+		margin: 28px;
+		display: flex;
+	  }
+	  
+  .footer{
+	border-top: 2px solid #757775;
+	background-color: #000000;
+	color: #BBBBBB;
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	margin: auto;
+	padding: 15px;
+
+}
+
+
+
+
+h1 {
+	text-align: center;
+	color: #56196a;
+}
+
+h2 {
+	text-align: center;
+	display: flex;
+	color: #e31111;
+}
+
+h3 {
+	text-align: left;
+	color: #ff0606;
+}
+
+p{
+	text-align: top;
+	display: flex;
+	justify-content: center;
+}
+
+
+form {
+	text-align: left;
+	color: #ffffff;
+}
+
+
+		  
+	
+
+
+
+
+   
+	
+	  
